@@ -2,7 +2,7 @@ node {
     
     stage("Git Clone"){
 
-        git credentialsId: 'GIT_HUB_CREDENTIALS', url: 'https://github.com/suhasini7131/springboot-with-docker-kub.git'
+        git credentialsId: 'GIT_HUB_CREDENTIALS', url: 'https://github.com/adarsha14/springboot-with-docker-kub.git'
     }
 
     stage('Gradle Build') {
